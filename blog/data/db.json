@@ -1,0 +1,31 @@
+{
+    "blogs" : [
+        {
+            "title" : "My Mini Blog",
+            "body" : "This is a mini blog built with React.js and Tailwind CSS.",
+            "author" : "Afzal",
+            "id" : 1
+        },
+        {
+            "title" : "Good morning",
+            "body" : "lorem ipsum key turn on functiona key in laoptop?...",
+            "author" : "Ali",
+            "id" : 2
+        },
+        {
+            "title" : "Good morning",
+            "body" : "lorem ipsum ...",
+            "author" : "Ahmed",
+            "id" : 3
+        },
+        {
+            
+            "title" : "Have a nice day",
+            "body" : "Hopefully your all task will be completed on time and therefore you worked hard for",
+            "author" : "Afzal",
+            "id" : 4
+        }
+        
+
+    ]
+}

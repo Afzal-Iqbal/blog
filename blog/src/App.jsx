@@ -1,14 +1,16 @@
-import { Button } from "@/components/ui/button"
 import { useState } from "react";
+import Navbar from "./components/navbar";
+import Home from "./components/Home";
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <p className=" mb-3 ">Welcome to the blog!</p>
-      <Button variant="secondary" onClick = {()=>{
-        setCount(count + 1)
-      }}>Click me</Button>
-      <p className=" mt-3 ">Count: {count}</p>
+    <div className="App">
+      <Navbar/>
+      <div className="content p-8 justify-center" >
+        
+        <Home/>
+        
+      </div>
     </div>
   )
 }
