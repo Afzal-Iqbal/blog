@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 
-function BlogList({blogs, title, handleDelete}) {
+function BlogList({blogs, title, handleDelete}) { // these are teh props we will get from the parent component to the child component
   // const blogs = props.blogs || [];
   // const title = props.title;
 
