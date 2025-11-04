@@ -1,0 +1,33 @@
+Non react website
+A user types a URL in the browser and hits enter.
+
+The browser sends a request to the server for that specific address.
+
+The server responds by sending back a full HTML page.
+
+When the user clicks a link (e.g., to a contact page), the browser sends a new request to the server.
+
+The server returns a new HTML page for that route.
+
+This cycle repeats for every navigation, resulting in multiple full-page reloads
+
+Client-Side Routing
+
+
+
+
+React Router DOM enables client-side routing, meaning navigation is handled entirely in the browser.
+Instead of sending a new request to the server for each page, React intercepts the navigation and injects the correct component into the DOM.
+2. Initial Load
+The browser makes one request to the server.
+
+The server returns:
+
+A basic HTML shell
+
+Your bundled React JavaScript files
+React takes over from there.
+3. Navigation Without Reloads
+Clicking a link (e.g., /about) doesn’t reload the page.
+React Router intercepts the click and renders the <About /> component inside your app.
+This makes transitions faster and smoothe
